@@ -1,0 +1,50 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"autoAudits": false
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.4.1",
+	"appid": "wx62beed7ad9f36356",
+	"projectname": "%E5%B0%8F%E7%A8%8B%E5%BA%8F%E6%95%99%E6%9D%90%E4%B9%A6%E7%B1%8D%E7%A4%BA%E4%BE%8B%E9%A1%B9%E7%9B%AE",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 0,
+			"list": [
+				{
+					"id": -1,
+					"name": "scroll-view",
+					"pathName": "pages/Chapter_5/5_2_scroll-view/5_2_scroll-view"
+				}
+			]
+		}
+	}
+}
