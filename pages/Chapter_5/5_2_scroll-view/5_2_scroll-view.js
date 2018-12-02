@@ -1,5 +1,4 @@
 // pages/Chapter_5/5_2_scroll-view/5_2_scroll-view.js
-const order = ['demo1', 'demo2', 'demo3']
 
 Page({
 
@@ -63,10 +62,7 @@ Page({
    * 用户点击右上角分享
    */
   onShareAppMessage: function () {
-    return {
-      title: 'scroll-view',
-      path: 'pages/Chapter_5/5_2_scroll-view/5_2_scroll-view'
-    }
+    
   },
   upper(e) {
     console.log(e)
@@ -78,21 +74,5 @@ Page({
 
   scroll(e) {
     console.log(e)
-  },
-  tap() {
-    for (let i = 0; i < order.length; ++i) {
-      if (order[i] === this.data.toView) {
-        this.setData({
-          toView: order[i + 1],
-          scrollTop: (i + 1) * 200
-        })
-        break
-      }
-    }
-  },
-  tapMove() {
-    this.setData({
-      scrollTop: this.data.scrollTop + 10
-    })
   }
 })
