@@ -1,5 +1,4 @@
 /* pages/Chapter_5/5_3_swiper/5_3_swiper.wxss */
-@import "../../../common/weui.wxss";
 page {
   background-color: #F8F8F8;
   height: 100%;
@@ -51,28 +50,9 @@ page {
   box-sizing: border-box;
   padding: 0 80rpx;
 }
-button{
-  margin-bottom: 30rpx;
-}
-button:last-child{
-  margin-bottom: 0;
-}
 .swiper-item{
   display: block;
   height: 150px;
-}
-.page-section-title{
-  margin-top: 60rpx;
-  position: relative;
-}
-.info{
-  position: absolute;
-  right: 0;
-  color: #353535;
-  font-size: 30rpx;
-}
-.page-foot{
-  margin-top: 50rpx;
 }
 .demo-text-1{
   position: relative;
@@ -118,4 +98,10 @@ button:last-child{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+.btn-area {
+  margin-top: 20rpx;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0 30rpx;
 }

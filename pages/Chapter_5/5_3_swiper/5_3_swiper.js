@@ -5,12 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    background: ['demo-text-1', 'demo-text-2', 'demo-text-3'],
-    indicatorDots: true,
-    vertical: false,
-    autoplay: false,
-    interval: 2000,
-    duration: 500
+    indicatorDots: true
   },
 
   /**
@@ -66,33 +61,12 @@ Page({
    * 用户点击右上角分享
    */
   onShareAppMessage: function () {
-    return {
-      title: 'swiper',
-      path: 'pages/Chapter_5/5_3_swiper/5_3_swiper'
-    }
+   
   },
 
   changeIndicatorDots() {
     this.setData({
       indicatorDots: !this.data.indicatorDots
-    })
-  },
-
-  changeAutoplay() {
-    this.setData({
-      autoplay: !this.data.autoplay
-    })
-  },
-
-  intervalChange(e) {
-    this.setData({
-      interval: e.detail.value
-    })
-  },
-
-  durationChange(e) {
-    this.setData({
-      duration: e.detail.value
     })
   }
 })
