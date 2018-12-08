@@ -9,8 +9,8 @@
     <view class="page-section page-section-gap">
       <map
         style="width: 100%; height: 300px;"
-        latitude="{{latitude}}"
-        longitude="{{longitude}}"
+        latitude="23.099994"
+        longitude="113.324520"
       >
         <cover-view class="cover-view">
           <cover-view class="container">
