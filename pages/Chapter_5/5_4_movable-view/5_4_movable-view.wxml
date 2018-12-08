@@ -10,22 +10,22 @@
       <view class="page-section">
         <view class="page-section-title top">只可以横向移动</view>
         <movable-area>
-          <movable-view direction="horizontal">text</movable-view>
+          <movable-view direction="horizontal">A</movable-view>
         </movable-area>
       </view>
 
       <view class="page-section">
         <view class="page-section-title top">只可以纵向移动</view>
         <movable-area>
-          <movable-view direction="vertical">text</movable-view>
+          <movable-view direction="vertical">B</movable-view>
         </movable-area>
       </view>
     </view>
 
     <view class="page-section">
-      <view class="page-section-title">movable-view区域小于movable-area</view>
+      <view class="page-section-title">movable-view可以在movable-area区域内任意移动</view>
       <movable-area>
-        <movable-view x="{{x}}" y="{{y}}" direction="all" bindchange="onChange">text</movable-view>
+        <movable-view x="{{x}}" y="{{y}}" direction="all" bindchange="onChange">C</movable-view>
       </movable-area>
     </view>
     <view class="btn-area">
@@ -33,6 +33,5 @@
     </view>
 
   </view>
-
 </view>
 
