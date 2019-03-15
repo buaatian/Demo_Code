@@ -1,0 +1,11 @@
+<!--pages/Chapter_3/WXKEY/WXKEY.wxml-->
+<switch wx:for="{{objectArray}}" wx:key="unique" style="display: block;">
+  {{item.id}}
+</switch>
+<button bindtap="switch">重新排序</button>
+<button bindtap="addToFront">在列表顶端新增一项</button>
+
+<switch wx:for="{{numberArray}}" wx:key="*this" style="display: block;">
+  {{item}}
+</switch>
+<button bindtap="addNumberToFront">在列表顶端新增一项</button>

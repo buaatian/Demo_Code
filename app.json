@@ -1,5 +1,12 @@
 {
   "pages": [
+    "pages/Chapter_3/mina/mina",
+    "pages/Chapter_3/page/page",
+    "pages/Chapter_3/WXML/WXML",
+    "pages/Chapter_3/WXKEY/WXKEY",
+    "pages/Chapter_3/WXSS/WXSS",
+    "pages/index/index",
+    "pages/logs/logs",
     "pages/Chapter_5/5_1_view/5_1_view",
     "pages/Chapter_5/5_2_scroll-view/5_2_scroll-view",
     "pages/Chapter_5/5_3_swiper/5_3_swiper",
@@ -18,5 +25,5 @@
     "uploadFile": 10000,
     "downloadFile": 10000
   },
-  "debug": true
+  "debug": false
 }

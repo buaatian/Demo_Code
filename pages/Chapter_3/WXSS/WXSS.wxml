@@ -1,0 +1,9 @@
+<!--pages/Chapter_3/WXSS/WXSS.wxml-->
+<view id="container">
+  <view class="flex-wrp" bindtap="changeColor">
+    <view class="flex-item demo-text-1" style="background-color:{{colorArray[0]}}"></view>
+    <view class="flex-item demo-text-2" style="background-color:{{colorArray[1]}}"></view>
+    <view class="flex-item demo-text-3" style="background-color:{{colorArray[2]}}"></view>
+  </view>
+</view>
+

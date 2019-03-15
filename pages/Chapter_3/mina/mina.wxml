@@ -1,0 +1,3 @@
+<!--pages/Chapter_3/mina/mina.wxml-->
+<text>{{text}}</text>
+<button bindtap='changeText'>Change Text</button>
