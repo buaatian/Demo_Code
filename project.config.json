@@ -4,7 +4,7 @@
 		"ignore": []
 	},
 	"setting": {
-		"urlCheck": true,
+		"urlCheck": false,
 		"es6": true,
 		"postcss": true,
 		"minified": true,
@@ -37,7 +37,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 7,
+			"current": 12,
 			"list": [
 				{
 					"id": -1,
@@ -84,7 +84,38 @@
 				{
 					"id": -1,
 					"name": "WXSS",
-					"pathName": "pages/Chapter_3/WXSS/WXSS"
+					"pathName": "pages/Chapter_3/WXSS/WXSS",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "frontend",
+					"pathName": "pages/Chapter_4/frontend/frontend",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "6_1_icon",
+					"pathName": "pages/Chapter_6/6_1_icon/6_1_icon",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "6_2_text",
+					"pathName": "pages/Chapter_6/6_2_text/6_2_text",
+					"query": ""
+				},
+				{
+					"id": 11,
+					"name": "6_3_rich-text",
+					"pathName": "pages/Chapter_6/6_3_rich-text/6_3_rich-text",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "6_4_progress",
+					"pathName": "pages/Chapter_6/6_4_progress/6_4_progress",
+					"query": ""
 				}
 			]
 		}

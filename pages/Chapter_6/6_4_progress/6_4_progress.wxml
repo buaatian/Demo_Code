@@ -1,0 +1,29 @@
+<!--pages/Chapter_6/6_4_progress/6_4_progress.wxml-->
+<view class="container">
+  <view class="page-head">
+    <view class="page-head-title">progress组件</view>
+    <view class="page-head-line"></view>
+  </view>
+
+  <view class="page-body">
+    <view class="page-section page-section-gap">
+
+      <view class="progress-box">
+        <progress percent="20" show-info stroke-width="3"/>
+      </view>
+
+      <view class="progress-box">
+        <progress percent="40" active stroke-width="3" />
+        <icon class="progress-cancel" type="cancel"></icon>
+      </view>
+
+      <view class="progress-box">
+        <progress percent="60" active stroke-width="3" />
+      </view>
+
+      <view class="progress-box">
+        <progress percent="80" color="#10AEFF" active stroke-width="3" />
+      </view>
+    </view>
+  </view>
+</view>
