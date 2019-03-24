@@ -16,13 +16,6 @@ const texts = [
 ]
 
 Page({
-  onShareAppMessage() {
-    return {
-      title: 'text',
-      path: 'page/component/pages/text/text'
-    }
-  },
-
   data: {
     text: '',
     canAdd: true,
@@ -35,13 +28,9 @@ Page({
     this.setData({
       text: this.extraLine.join('\n'),
       canAdd: this.extraLine.length < 12,
-      canRemove: this.extraLine.length > 0
+      canRemove: this.extraLine.length > 0,
+      scrollTop:99999
     })
-    setTimeout(() => {
-      this.setData({
-        scrollTop: 99999
-      })
-    }, 0)
   },
   remove() {
     if (this.extraLine.length > 0) {
@@ -50,12 +39,8 @@ Page({
         text: this.extraLine.join('\n'),
         canAdd: this.extraLine.length < 12,
         canRemove: this.extraLine.length > 0,
+        scrollTop:99999
       })
     }
-    setTimeout(() => {
-      this.setData({
-        scrollTop: 99999
-      })
-    }, 0)
   }
 })

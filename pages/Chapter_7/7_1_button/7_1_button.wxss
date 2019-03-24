@@ -1,4 +1,4 @@
-/* pages/Chapter_6/6_3_rich-text/6_1_rich-text.wxss */
+/* pages/Chapter_7/7_1_button/7_1_button.wxss */
 page {
   background-color: #F8F8F8;
   height: 100%;
@@ -34,34 +34,20 @@ page {
   flex-grow: 1;
   overflow-x: hidden;
 }
-.page-section{
-  width: 100%;
-  margin-bottom: 60rpx;
-}
-.page-section-title{
-  font-size: 28rpx;
-  color: #999999;
-  margin-bottom: 10rpx;
-  padding-left: 30rpx;
-  padding-right: 30rpx;
-}
-.page-content {
-  width: auto;
-  margin: 30rpx 0;
-  padding: 0 50rpx;
-}
-.p {
-  color: #1AAD19;
-  margin-top: 30rpx;
-}
-scroll-view {
-  height: 350rpx;
-  border: 1rpx solid #1AAD19;
-  white-space: pre;
-  padding: 10rpx;
-  box-sizing: border-box;
+.btn-area{
+  margin-top:60rpx;
+  box-sizing:border-box;
+  width:100%;
+  padding:0 30rpx;
 }
 button{
-  margin-top: 20rpx;
-  margin-bottom: 20rpx;
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+}
+.button-sp-area{
+  margin: 0 auto;
+  width: 60%;
+}
+.mini-btn{
+  margin-right: 10rpx;
 }

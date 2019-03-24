@@ -1,4 +1,5 @@
-/* pages/Chapter_6/6_3_rich-text/6_1_rich-text.wxss */
+/* pages/Chapter_7/7_2_form/7_2_form.wxss */
+@import "../../../common/weui.wxss";
 page {
   background-color: #F8F8F8;
   height: 100%;
@@ -42,26 +43,30 @@ page {
   font-size: 28rpx;
   color: #999999;
   margin-bottom: 10rpx;
-  padding-left: 30rpx;
-  padding-right: 30rpx;
 }
-.page-content {
-  width: auto;
-  margin: 30rpx 0;
-  padding: 0 50rpx;
-}
-.p {
-  color: #1AAD19;
-  margin-top: 30rpx;
-}
-scroll-view {
-  height: 350rpx;
-  border: 1rpx solid #1AAD19;
-  white-space: pre;
-  padding: 10rpx;
-  box-sizing: border-box;
+.page-section-gap{
+  box-sizing:border-box;
+  padding:0 30rpx;
 }
 button{
-  margin-top: 20rpx;
-  margin-bottom: 20rpx;
+  margin-top:20rpx;
+  margin-bottom:20rpx;
+}
+.btn-area{
+  margin-top:60rpx;
+  box-sizing:border-box;
+  width:100%;
+  padding:0 30rpx;
+}
+label {
+  display: inline-block;
+  min-width: 270rpx;
+  margin-right: 20rpx;
+}
+form{
+  width: 100%;
+}
+.picker-text {
+  margin-left: 20rpx;
+  position: relative;
 }

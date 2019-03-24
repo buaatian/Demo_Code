@@ -1,0 +1,35 @@
+<!--pages/Chapter_7/7_10_switch/7_10_switch.wxml-->
+<view class="container">
+  <view class="page-head">
+    <view class="page-head-title">switch组件</view>
+    <view class="page-head-line"></view>
+  </view>
+  <view class="page-body">
+    <view class="page-section page-section-gap">
+      <view class="page-section-title">默认样式</view>
+      <view class="body-view">
+        <switch checked bindchange="switch1Change"/>
+        <switch bindchange="switch2Change"/>
+      </view>
+    </view>
+
+    <view class="page-section">
+      <view class="page-section-title page-section-gap">推荐展示样式</view>
+      <view class="weui-cells weui-cells_after-title">
+        <view class="weui-cell weui-cell_switch">
+          <view class="weui-cell__bd">开启中</view>
+          <view class="weui-cell__ft">
+            <switch checked />
+          </view>
+        </view>
+        <view class="weui-cell weui-cell_switch">
+          <view class="weui-cell__bd">关闭</view>
+          <view class="weui-cell__ft">
+            <switch />
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+

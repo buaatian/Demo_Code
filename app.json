@@ -16,7 +16,18 @@
     "pages/Chapter_6/6_1_icon/6_1_icon",
     "pages/Chapter_6/6_2_text/6_2_text",
     "pages/Chapter_6/6_3_rich-text/6_3_rich-text",
-    "pages/Chapter_6/6_4_progress/6_4_progress"
+    "pages/Chapter_6/6_4_progress/6_4_progress",
+    "pages/Chapter_7/7_1_button/7_1_button",
+    "pages/Chapter_7/7_2_form/7_2_form",
+    "pages/Chapter_7/7_3_checkbox/7_3_checkbox",
+    "pages/Chapter_7/7_4_input/7_4_input",
+    "pages/Chapter_7/7_5_label/7_5_label",
+    "pages/Chapter_7/7_6_picker/7_6_picker",
+    "pages/Chapter_7/7_7_picker-view/7_7_picker-view",
+    "pages/Chapter_7/7_8_radio/7_8_radio",
+    "pages/Chapter_7/7_9_slider/7_9_slider",
+    "pages/Chapter_7/7_10_switch/7_10_switch",
+    "pages/Chapter_7/7_11_textarea/7_11_textarea"
   ],
   "window": {
     "navigationBarTextStyle": "black",

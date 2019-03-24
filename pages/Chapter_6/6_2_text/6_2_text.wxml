@@ -9,9 +9,8 @@
       <view class="text-box" scroll-y="true" scroll-top="{{scrollTop}}">
         <text>{{text}}</text>
       </view>
-      <button disabled="{{!canAdd}}" bindtap="add">add line</button>
-      <button disabled="{{!canRemove}}" bindtap="remove">remove line</button>
+      <button disabled="{{!canAdd}}" bindtap="add">添加一行</button>
+      <button disabled="{{!canRemove}}" bindtap="remove">移除一行</button>
     </view>
   </view>
 </view>
-

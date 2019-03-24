@@ -1,7 +1,7 @@
 // pages/Chapter_6/6_3_rich-text/6_1_rich-text.js
 const htmlSnip =
   `<div class="div_class">
-  <h1>Title</h1>
+  <h1>Forrest Gump</h1>
   <p class="p">
     Life is&nbsp;<i>like</i>&nbsp;a box of
     <b>&nbsp;chocolates</b>.
@@ -26,15 +26,7 @@ const nodeSnip =
   }
 })
 `
-
 Page({
-  onShareAppMessage() {
-    return {
-      title: 'rich-text',
-      path: 'page/component/pages/rich-text/rich-text'
-    }
-  },
-
   data: {
     htmlSnip,
     nodeSnip,
@@ -44,7 +36,7 @@ Page({
       name: 'div',
       attrs: {
         class: 'div_class',
-        style: 'line-height: 60px; color: #1AAD19;'
+        style: 'line-height: 60px; color: red;'
       },
       children: [{
         type: 'text',
@@ -60,12 +52,6 @@ Page({
   renderNode() {
     this.setData({
       renderedByNode: true
-    })
-  },
-  enterCode(e) {
-    console.log(e.detail.value)
-    this.setData({
-      htmlSnip: e.detail.value
     })
   }
 })

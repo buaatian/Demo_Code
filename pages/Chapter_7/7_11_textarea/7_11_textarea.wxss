@@ -1,4 +1,4 @@
-/* pages/Chapter_6/6_3_rich-text/6_1_rich-text.wxss */
+/* pages/Chapter_7/7_11_textarea/7_11_textarea.wxss */
 page {
   background-color: #F8F8F8;
   height: 100%;
@@ -42,26 +42,13 @@ page {
   font-size: 28rpx;
   color: #999999;
   margin-bottom: 10rpx;
-  padding-left: 30rpx;
-  padding-right: 30rpx;
+  padding:0 30rpx;
 }
-.page-content {
-  width: auto;
-  margin: 30rpx 0;
-  padding: 0 50rpx;
+textarea {
+    width: 700rpx;
+    padding: 25rpx 0;
 }
-.p {
-  color: #1AAD19;
-  margin-top: 30rpx;
-}
-scroll-view {
-  height: 350rpx;
-  border: 1rpx solid #1AAD19;
-  white-space: pre;
-  padding: 10rpx;
-  box-sizing: border-box;
-}
-button{
-  margin-top: 20rpx;
-  margin-bottom: 20rpx;
+.textarea-wrp {
+    padding: 0 25rpx;
+    background-color: #fff;
 }
