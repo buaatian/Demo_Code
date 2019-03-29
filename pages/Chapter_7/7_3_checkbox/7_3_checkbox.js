@@ -1,12 +1,5 @@
 // pages/Chapter_7/7_3_checkbox/7_3_checkbox.js
 Page({
-  onShareAppMessage() {
-    return {
-      title: 'checkbox',
-      path: 'page/component/pages/checkbox/checkbox'
-    }
-  },
-
   data: {
     items: [
       { value: 'USA', name: '美国' },
@@ -20,22 +13,5 @@ Page({
 
   checkboxChange(e) {
     console.log('checkbox发生change事件，携带value值为：', e.detail.value)
-
-    const items = this.data.items
-    const values = e.detail.value
-    for (let i = 0, lenI = items.length; i < lenI; ++i) {
-      items[i].checked = false
-
-      for (let j = 0, lenJ = values.length; j < lenJ; ++j) {
-        if (items[i].value === values[j]) {
-          items[i].checked = true
-          break
-        }
-      }
-    }
-
-    this.setData({
-      items
-    })
   }
 })

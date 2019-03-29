@@ -14,16 +14,13 @@
         <radio value="r2" />未选中
       </label>
     </view>
-
-
     <view class="page-section">
       <view class="page-section-title page-section-gap">推荐展示样式</view>
       <view class="weui-cells weui-cells_after-title">
         <radio-group bindchange="radioChange">
           <label class="weui-cell weui-check__label" wx:for="{{items}}" wx:key="{{item.value}}">
-
             <view class="weui-cell__hd">
-              <radio value="{{item.value}}" checked="true"/>
+              <radio value="{{item.value}}" checked="{{item.checked}}"/>
             </view>
             <view class="weui-cell__bd">{{item.name}}</view>
           </label>

@@ -17,21 +17,14 @@ for (let i = 1; i <= 31; i++) {
 }
 
 Page({
-  onShareAppMessage() {
-    return {
-      title: 'picker-view',
-      path: 'page/component/pages/picker-view/picker-view'
-    }
-  },
-
   data: {
     years,
     year: date.getFullYear(),
     months,
-    month: 2,
+    month: 5,
     days,
-    day: 2,
-    value: [9999, 1, 1],
+    day: 1,
+    value: [9999, 4, 0],
     isDaytime: true,
   },
 
