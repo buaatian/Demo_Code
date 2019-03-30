@@ -1,0 +1,21 @@
+<!--pages/Chapter_8/8_2_image/8_2_image.wxml-->
+<view class="container">
+  <view class="page-head">
+    <view class="page-head-title">image组件</view>
+    <view class="page-head-line"></view>
+  </view>
+  <view class="page-body">
+    <view class="page-section page-section-gap">
+      <view class="page-section-title">本地图片</view>
+      <view class="page-section-ctn">
+        <image class="image_1" src="../../../image/WeChat_1.jpg"/>
+      </view>
+    </view>
+    <view class="page-section page-section-gap">
+      <view class="page-section-title">网络图片</view>
+      <view class="page-section-ctn">
+        <image class="image_2" mode='aspectFit' src="https://img3.doubanio.com/view/photo/raw/public/p2522138824.jpg"/>
+      </view>
+    </view>
+  </view>
+</view>

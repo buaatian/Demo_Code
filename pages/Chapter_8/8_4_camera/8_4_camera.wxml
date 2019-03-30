@@ -1,0 +1,33 @@
+<!--pages/Chapter_8/8_4_camera/8_4_camera.wxml-->
+<view class="container">
+  <view class="page-head">
+    <view class="page-head-title">camera组件</view>
+    <view class="page-head-line"></view>
+  </view>
+  <view class="page-body">
+    <view class="page-body-wrapper">
+      <camera
+        flash="off"
+        device-position="{{position}}"
+        binderror="error"
+      >
+      </camera>
+      <view class="btn-area first-btn">
+      <button type="primary" bindtap="togglePosition">切换摄像头</button>
+      </view>
+      <view class="btn-area">
+        <button type="primary" bindtap="takePhoto">拍照</button>
+      </view>
+      <view class="btn-area">
+        <button type="primary" bindtap="startRecord">开始录像</button>
+      </view>
+      <view class="btn-area">
+        <button type="primary" bindtap="stopRecord">结束录像</button>
+      </view>
+      <view class="preview-tips">预览</view>
+      <image wx:if="{{src}}" mode="widthFix" class="photo" src="{{src}}"></image>
+      <video wx:if="{{videoSrc}}" class="video" src="{{videoSrc}}"></video>
+    </view>
+  </view>
+</view>
+

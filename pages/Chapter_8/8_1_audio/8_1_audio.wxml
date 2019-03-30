@@ -1,0 +1,13 @@
+<!--pages/Chapter_8/8_1_audio/8_1_audio.wxml-->
+<view class="container">
+  <view class="page-head">
+    <view class="page-head-title">audio组件</view>
+    <view class="page-head-line"></view>
+  </view>
+
+  <view class="page-body">
+    <view class="page-section" style="text-align: center;">
+      <audio style="text-align: left" src="{{current.src}}" poster="{{current.poster}}" name="{{current.name}}" author="{{current.author}}" action="{{audioAction}}" controls></audio>
+    </view>
+  </view>
+</view>

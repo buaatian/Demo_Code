@@ -27,7 +27,16 @@
     "pages/Chapter_7/7_8_radio/7_8_radio",
     "pages/Chapter_7/7_9_slider/7_9_slider",
     "pages/Chapter_7/7_10_switch/7_10_switch",
-    "pages/Chapter_7/7_11_textarea/7_11_textarea"
+    "pages/Chapter_7/7_11_textarea/7_11_textarea",
+    "pages/Chapter_8/8_1_audio/8_1_audio",
+    "pages/Chapter_8/8_2_image/8_2_image",
+    "pages/Chapter_8/8_3_video/8_3_video",
+    "pages/Chapter_8/8_4_camera/8_4_camera",
+    "pages/Chapter_9/9_1_navigator/9_1_navigator",
+    "pages/Chapter_9/9_2_map/9_2_map",
+    "pages/Chapter_9/9_3_canvas/9_3_canvas",
+    "pages/Chapter_9/9_4_open-data/9_4_open-data",
+    "pages/Chapter_9/9_5_official-account/9_5_official-account"
   ],
   "window": {
     "navigationBarTextStyle": "black",

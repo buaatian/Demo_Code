@@ -37,7 +37,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 23,
+			"current": 32,
 			"list": [
 				{
 					"id": -1,
@@ -180,7 +180,70 @@
 				{
 					"id": -1,
 					"name": "7_11_textarea",
-					"pathName": "pages/Chapter_7/7_11_textarea/7_11_textarea"
+					"pathName": "pages/Chapter_7/7_11_textarea/7_11_textarea",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "8_1_audio",
+					"pathName": "pages/Chapter_8/8_1_audio/8_1_audio",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "8_2_image",
+					"pathName": "pages/Chapter_8/8_2_image/8_2_image",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "8_3_video",
+					"pathName": "pages/Chapter_8/8_3_video/8_3_video",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "8_4_camera",
+					"pathName": "pages/Chapter_8/8_4_camera/8_4_camera",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "9_1_navigator",
+					"pathName": "pages/Chapter_9/9_1_navigator/9_1_navigator",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "9_2_map",
+					"pathName": "pages/Chapter_9/9_2_map/9_2_map",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "9_3_canvas",
+					"pathName": "pages/Chapter_9/9_3_canvas/9_3_canvas",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "9_4_open-data",
+					"pathName": "pages/Chapter_9/9_4_open-data/9_4_open-data",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "9_5_official-account",
+					"pathName": "pages/Chapter_9/9_5_official-account/9_5_official-account",
+					"scene": null
 				}
 			]
 		}
