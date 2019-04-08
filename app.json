@@ -33,6 +33,8 @@
     "pages/Chapter_8/8_3_video/8_3_video",
     "pages/Chapter_8/8_4_camera/8_4_camera",
     "pages/Chapter_9/9_1_navigator/9_1_navigator",
+    "pages/Chapter_9/9_1_navigator/9_1_navigate",
+    "pages/Chapter_9/9_1_navigator/9_1_redirect",
     "pages/Chapter_9/9_2_map/9_2_map",
     "pages/Chapter_9/9_3_canvas/9_3_canvas",
     "pages/Chapter_9/9_4_open-data/9_4_open-data",
@@ -50,5 +52,8 @@
     "uploadFile": 10000,
     "downloadFile": 10000
   },
-  "debug": false
+  "debug": false,
+  "navigateToMiniProgramAppIdList": [
+    "wx4f1b24bdc99fa23b"
+  ]
 }

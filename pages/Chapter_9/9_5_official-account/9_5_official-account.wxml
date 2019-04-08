@@ -1,2 +1,11 @@
 <!--pages/Chapter_9/9_5_official-account/9_5_official-account.wxml-->
-<text>pages/Chapter_9/9_5_official-account/9_5_official-account.wxml</text>
+<view class="container">
+  <view class="page-head">
+    <view class="page-head-title">official-account组件</view>
+    <view class="page-head-line"></view>
+  </view>
+  <view class="page-body">
+    <official-account></official-account>
+  </view>
+</view>
+

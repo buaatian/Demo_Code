@@ -1,66 +1,81 @@
 // pages/Chapter_9/9_2_map/9_2_map.js
 Page({
-
-  /**
-   * 页面的初始数据
-   */
   data: {
-
+    latitude: 23.099994,
+    longitude: 113.324520,
+    markers: [{
+      latitude: 23.099994,
+      longitude: 113.324520,
+      name: 'T.I.T 创意园'
+    }],
+    covers: [{
+      latitude: 23.099994,
+      longitude: 113.344520,
+      iconPath: '/image/location.png'
+    }, {
+      latitude: 23.099994,
+      longitude: 113.304520,
+      iconPath: '/image/location.png'
+    }],
+    polygons: [{
+      points: [
+        {
+          latitude: 23.099994,
+          longitude: 113.324520,
+        },
+        {
+          latitude: 23.098994,
+          longitude: 113.323520,
+        },
+        {
+          latitude: 23.098994,
+          longitude: 113.325520,
+        }
+      ],
+      strokeWidth: 3,
+      strokeColor: '#f5641a',
+    }],
+    enable3d: false,
+    showCompass: false,
+    enableOverlooking: false,
+    enableZoom: true,
+    enableScroll: true,
+    enableRotate: false,
+    drawPolygon: false,
   },
-
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad: function (options) {
-
+  toggle3d() {
+    this.setData({
+      enable3d: !this.data.enable3d
+    })
   },
-
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function () {
-
+  toggleShowCompass() {
+    this.setData({
+      showCompass: !this.data.showCompass
+    })
   },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow: function () {
-
+  toggleOverlooking() {
+    this.setData({
+      enableOverlooking: !this.data.enableOverlooking
+    })
   },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-
+  toggleZoom() {
+    this.setData({
+      enableZoom: !this.data.enableZoom
+    })
   },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-
+  toggleScroll() {
+    this.setData({
+      enableScroll: !this.data.enableScroll
+    })
   },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-
+  toggleRotate() {
+    this.setData({
+      enableRotate: !this.data.enableRotate
+    })
   },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-
+  togglePolygon() {
+    this.setData({
+      drawPolygon: !this.data.drawPolygon
+    })
   }
 })

@@ -1,2 +1,20 @@
 <!--pages/Chapter_9/9_1_navigator/9_1_navigator.wxml-->
-<text>pages/Chapter_9/9_1_navigator/9_1_navigator.wxml</text>
+<view class="container">
+  <view class="page-head">
+    <view class="page-head-title">navigator</view>
+    <view class="page-head-line"></view>
+  </view>
+  <view class="page-body">
+    <view class="btn-area">
+      <navigator url="9_1_navigate?title=navigate" hover-class="navigator-hover">
+        <button type="default">跳转到新页面</button>
+      </navigator>
+      <navigator url="9_1_redirect?title=redirect" redirect hover-class="other-navigator-hover">
+        <button type="default">在当前页打开</button>
+      </navigator>
+      <navigator target="miniProgram" open-type="navigate" app-id="wx4f1b24bdc99fa23b" version="release" bindsuccess="navigateToMiniProgram" bindfail="FailToNavigateToMiniProgram">
+         <button type="default">打开小程序</button>
+      </navigator>
+    </view>
+  </view>
+</view>

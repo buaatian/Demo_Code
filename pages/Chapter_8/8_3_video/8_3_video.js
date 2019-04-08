@@ -10,13 +10,6 @@ function getRandomColor() {
 }
 
 Page({
-  onShareAppMessage() {
-    return {
-      title: 'video',
-      path: 'page/component/pages/video/video'
-    }
-  },
-
   onReady() {
     this.videoContext = wx.createVideoContext('myVideo')
   },
@@ -38,20 +31,6 @@ Page({
 
   bindInputBlur(e) {
     this.inputValue = e.detail.value
-  },
-
-  bindButtonTap() {
-    const that = this
-    wx.chooseVideo({
-      sourceType: ['album', 'camera'],
-      maxDuration: 60,
-      camera: ['front', 'back'],
-      success(res) {
-        that.setData({
-          src: res.tempFilePath
-        })
-      }
-    })
   },
 
   bindSendDanmu() {

@@ -7,7 +7,7 @@
 
   <view class="page-body">
     <view class="page-section" style="text-align: center;">
-      <audio style="text-align: left" src="{{current.src}}" poster="{{current.poster}}" name="{{current.name}}" author="{{current.author}}" action="{{audioAction}}" controls></audio>
+      <audio style="text-align: left" src="{{current.src}}" poster="{{current.poster}}" name="{{current.name}}" author="{{current.author}}" controls bindplay='playMusic' bindpause='pauseMusic'></audio>
     </view>
   </view>
 </view>

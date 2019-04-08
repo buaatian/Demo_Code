@@ -1,0 +1,7 @@
+<!--pages/Chapter_9/9_1_navigator/9_1_redirect.wxml-->
+<view class="container">
+  <view class="page-head">
+    <view class="page-head-title">当前页</view>
+    <view class="page-head-line"></view>
+  </view>
+</view>

@@ -1,2 +1,12 @@
 <!--pages/Chapter_9/9_3_canvas/9_3_canvas.wxml-->
-<text>pages/Chapter_9/9_3_canvas/9_3_canvas.wxml</text>
+<view class="container">
+  <view class="page-head">
+    <view class="page-head-title">canvas组件</view>
+    <view class="page-head-line"></view>
+  </view>
+  <view class="page-body">
+    <view class="page-body-wrapper">
+      <canvas canvas-id="canvas" class="canvas"></canvas>
+    </view>
+  </view>
+</view>

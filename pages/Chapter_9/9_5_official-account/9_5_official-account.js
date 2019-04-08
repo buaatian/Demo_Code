@@ -62,5 +62,11 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+  success:function(){
+    console.log('加载成功')
+  },
+  error:function(detail){
+    console.log(detail)
   }
 })
