@@ -1,0 +1,18 @@
+<!--pages/Chapter_10/10_1_request/10_1_request.wxml-->
+<view class="container">
+  <view class="page-head">
+    <view class="page-head-title">request</view>
+    <view class="page-head-line"></view>
+  </view>
+
+  <view class="page-body">
+    <view class="page-body-wording">
+      <text class="page-body-text">
+        {{data_from_server}}
+      </text>
+    </view>
+    <view class="btn-area">
+      <button bindtap="makeRequest" type="primary" disabled="{{buttonDisabled}}" loading="{{loading}}">request</button>
+    </view>
+  </view>
+</view>

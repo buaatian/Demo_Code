@@ -4,7 +4,7 @@
 		"ignore": []
 	},
 	"setting": {
-		"urlCheck": false,
+		"urlCheck": true,
 		"es6": true,
 		"postcss": true,
 		"minified": true,
@@ -37,7 +37,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 32,
+			"current": 35,
 			"list": [
 				{
 					"id": -1,
@@ -245,6 +245,26 @@
 					"pathName": "pages/Chapter_9/9_5_official-account/9_5_official-account",
 					"query": "",
 					"scene": 1047
+				},
+				{
+					"id": -1,
+					"name": "10_1_request",
+					"pathName": "pages/Chapter_10/10_1_request/10_1_request",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "10_3_websocket",
+					"pathName": "pages/Chapter_10/10_3_websocket/10_3_websocket",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "10_2_upanddownfile",
+					"pathName": "pages/Chapter_10/10_2_upanddownfile/10_2_upanddownfile",
+					"scene": null
 				}
 			]
 		}
