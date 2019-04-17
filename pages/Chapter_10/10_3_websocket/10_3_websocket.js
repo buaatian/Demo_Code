@@ -17,36 +17,14 @@ function showSuccess(title) {
 
 
 Page({
-  onShareAppMessage() {
-    return {
-      title: 'Web Socket',
-      path: 'page/API/pages/web-socket/web-socket'
-    }
-  },
-
   data: {
     socketStatus: 'closed'
   },
-
   onLoad() {
     const self = this
     self.setData({
       hasLogin: true
     })
-    // qcloud.setLoginUrl(loginUrl)
-
-    // qcloud.login({
-    //   success: function(result) {
-    //     console.log('登录成功', result)
-    //     self.setData({
-    //       hasLogin: true
-    //     })
-    //   },
-
-    //   fail: function(error) {
-    //     console.log('登录失败', error)
-    //   }
-    // })
   },
 
   onUnload() {
@@ -65,8 +43,6 @@ Page({
   },
 
   openSocket() {
-    // var socket = this.socket = new qcloud.Tunnel(tunnelUrl)
-
     wx.onSocketOpen(() => {
       console.log('WebSocket 已连接')
       showSuccess('Socket已连接')
@@ -89,7 +65,6 @@ Page({
       })
     })
 
-    // 监听服务器推送消息
     wx.onSocketMessage(message => {
       showSuccess('收到信道消息')
       console.log('socket message:', message)
@@ -97,8 +72,6 @@ Page({
         loading: false
       })
     })
-
-    // 打开信道
     wx.connectSocket({
       url: 'wss://mini.ecbc413.cn/wss',
     })

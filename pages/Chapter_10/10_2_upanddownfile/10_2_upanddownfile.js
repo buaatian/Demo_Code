@@ -1,12 +1,5 @@
 // pages/Chapter_10/10_2_upanddownfile/10_2_upanddownfile.js
 Page({
-  onShareAppMessage() {
-    return {
-      title: '上传文件',
-      path: 'page/API/pages/upload-file/upload-file'
-    }
-  },
-
   chooseImage() {
     const self = this
 
