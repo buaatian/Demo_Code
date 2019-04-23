@@ -41,7 +41,9 @@
     "pages/Chapter_9/9_5_official-account/9_5_official-account",
     "pages/Chapter_10/10_1_request/10_1_request",
     "pages/Chapter_10/10_2_upanddownfile/10_2_upanddownfile",
-    "pages/Chapter_10/10_3_websocket/10_3_websocket"
+    "pages/Chapter_10/10_3_websocket/10_3_websocket",
+    "pages/Chapter_12/12_1_file/12_1_file",
+    "pages/Chapter_12/12_2_storage/12_2_storage"
   ],
   "window": {
     "navigationBarTextStyle": "black",
