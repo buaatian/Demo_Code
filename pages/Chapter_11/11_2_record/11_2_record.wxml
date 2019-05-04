@@ -1,0 +1,31 @@
+<!--pages/Chapter_11/11_2_record/11_2_record.wxml-->
+<view class="container">
+  <view class="page-head">
+    <view class="page-head-title">录音接口</view>
+    <view class="page-head-line"></view>
+  </view>
+  <view class="page-body">
+    <view class="page-section">
+      <block wx:if="{{recording === false}}">
+        <view class="page-body-buttons">
+          <view class="page-body-button"></view>
+          <view class="page-body-button" bindtap="startRecord">
+            <image src="/image/record.png"></image>
+          </view>
+          <view class="page-body-button"></view>
+        </view>
+      </block>
+
+      <block wx:if="{{recording === true}}">
+        <view class="page-body-buttons">
+          <view class="page-body-button"></view>
+          <view class="page-body-button" bindtap="stopRecord">
+            <view class="button-stop-record"></view>
+          </view>
+          <view class="page-body-button"></view>
+        </view>
+      </block>
+    </view>
+  </view>
+</view>
+

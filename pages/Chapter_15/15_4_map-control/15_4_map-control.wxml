@@ -1,0 +1,46 @@
+<!--pages/Chapter_15/15_4_map-control/15_4_map-control.wxml-->
+<view class="container">
+  <view class="page-head">
+    <view class="page-head-title">MapContext</view>
+    <view class="page-head-line"></view>
+  </view>
+
+  <view class="page-body">
+    <view class="page-section page-section-gap">
+      <map
+        id = "map"
+        style="width: 100%; height: 300px;"
+        latitude="{{latitude}}"
+        longitude="{{longitude}}"
+        scale="18"
+        markers="{{markers}}"
+        show-location
+      >
+      </map>
+    </view>
+  </view>
+
+  <view class="page-section">
+    <view class="btn-area">
+      <button bindtap="getCenterLocation">
+        获取当前地图中心的经纬度
+      </button>
+      <button bindtap="getRegion">
+        获取当前地图的视野范围
+      </button>
+      <button bindtap="getScale">
+        获取当前地图的缩放级别
+      </button>
+      <button bindtap="includePoints">
+        缩放视野展示所有标记点
+      </button>
+      <button bindtap="moveToLocation">
+        将地图中心移动到当前定位点
+      </button>
+      <button bindtap="translateMarker">
+        平移marker
+      </button>
+    </view>
+  </view>
+</view>
+

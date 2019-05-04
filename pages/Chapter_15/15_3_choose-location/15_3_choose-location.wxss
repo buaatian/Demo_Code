@@ -1,0 +1,5 @@
+/* pages/Chapter_15/15_3_choose-location/15_3_choose-location.wxss */
+.page-body-info{
+  padding-bottom: 0;
+  height: 440rpx;
+}

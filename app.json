@@ -42,8 +42,18 @@
     "pages/Chapter_10/10_1_request/10_1_request",
     "pages/Chapter_10/10_2_upanddownfile/10_2_upanddownfile",
     "pages/Chapter_10/10_3_websocket/10_3_websocket",
+    "pages/Chapter_11/11_1_image/11_1_image",
+    "pages/Chapter_11/11_2_record/11_2_record",
+    "pages/Chapter_11/11_3_voice/11_3_voice",
+    "pages/Chapter_11/11_4_background-audio/11_4_background-audio",
+    "pages/Chapter_11/11_5_video/11_5_video",
+    "pages/Chapter_11/11_8_load-font/11_8_load-font",
     "pages/Chapter_12/12_1_file/12_1_file",
-    "pages/Chapter_12/12_2_storage/12_2_storage"
+    "pages/Chapter_12/12_2_storage/12_2_storage",
+    "pages/Chapter_15/15_1_get-location/15_1_get-location",
+    "pages/Chapter_15/15_2_open-location/15_2_open-location",
+    "pages/Chapter_15/15_3_choose-location/15_3_choose-location",
+    "pages/Chapter_15/15_4_map-control/15_4_map-control"
   ],
   "window": {
     "navigationBarTextStyle": "black",
@@ -60,5 +70,9 @@
   "debug": false,
   "navigateToMiniProgramAppIdList": [
     "wx4f1b24bdc99fa23b"
+  ],
+  "sitemapLocation": "sitemap.json",
+  "requiredBackgroundModes": [
+    "audio"
   ]
 }

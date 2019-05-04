@@ -1,0 +1,54 @@
+<!--pages/Chapter_11/11_3_voice/11_3_voice.wxml-->
+<view class="container">
+  <view class="page-head">
+    <view class="page-head-title">音频控制接口</view>
+    <view class="page-head-line"></view>
+  </view>
+  <view class="page-body">
+    <view class="page-section">
+      <block wx:if="{{recording === false && playing === false && hasRecord === false}}">
+        <view class="page-body-buttons">
+          <view class="page-body-button"></view>
+          <view class="page-body-button" bindtap="startRecord">
+            <image src="/image/record.png"></image>
+          </view>
+          <view class="page-body-button"></view>
+        </view>
+      </block>
+
+      <block wx:if="{{recording === true}}">
+        <view class="page-body-buttons">
+          <view class="page-body-button"></view>
+          <view class="page-body-button" bindtap="stopRecord">
+            <view class="button-stop-record"></view>
+          </view>
+          <view class="page-body-button"></view>
+        </view>
+      </block>
+
+       <block wx:if="{{hasRecord === true && playing === false}}">
+        <view class="page-body-buttons">
+          <view class="page-body-button" bindtap="playVoice">
+            <image src="/image/play.png"></image>
+          </view>
+          <view class="page-body-button" bindtap="clear">
+            <image src="/image/trash.png"></image>
+          </view>
+        </view>
+      </block>
+
+      <block wx:if="{{hasRecord === true && playing === true}}">
+        <view class="page-body-buttons">
+          <view class="page-body-button" bindtap="stopVoice">
+            <image src="/image/stop.png"></image>
+          </view>
+          <view class="page-body-button" bindtap="pauseVoice">
+            <image src="/image/pause.png"></image>
+          </view>
+        </view>
+      </block>
+    </view>
+  </view>
+</view>
+
+

@@ -1,0 +1,37 @@
+<!--pages/Chapter_11/11_4_background-audio/11_4_background-audio.wxml-->
+<view class="container">
+  <view class="page-head">
+    <view class="page-head-title">background-audio</view>
+    <view class="page-head-line"></view>
+  </view>
+  <view class="page-section">
+    <view class="page-body-info">
+      <text class="time-big">{{playTime}}</text>
+      <slider class="slider" min="0" max="{{length}}" step="1" value="{{playTime}}" bindchange="seek"></slider>
+      <view class="play-time">
+        <text>0</text>
+        <text>{{length}}</text>
+      </view>
+    </view>
+    <view class="page-body-text tc">注意：离开当前页面后背景音乐将保持播放，但退出小程序将停止</view>
+    <view class="page-body-buttons">
+      <block wx:if="{{playing === true}}">
+        <view class="page-body-button" bindtap="stop">
+          <image src="/image/stop.png"></image>
+        </view>
+        <view class="page-body-button" bindtap="pause">
+          <image src="/image/pause.png"></image>
+        </view>
+      </block>
+      <block wx:if="{{playing === false}}">
+        <view class="page-body-button"></view>
+        <view class="page-body-button" bindtap="play">
+          <image src="/image/play.png"></image>
+        </view>
+      </block>
+      <view class="page-body-button"></view>
+    </view>
+  </view>
+</view>
+
+

@@ -19,6 +19,8 @@
 		"hidedInDevtools": []
 	},
 	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
 	"condition": {
 		"search": {
 			"current": -1,
@@ -37,7 +39,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 37,
+			"current": 47,
 			"list": [
 				{
 					"id": -1,
@@ -278,6 +280,76 @@
 					"id": -1,
 					"name": "12_2_storage",
 					"pathName": "pages/Chapter_12/12_2_storage/12_2_storage",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "11_1_image",
+					"pathName": "pages/Chapter_11/11_1_image/11_1_image",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "11_2_record",
+					"pathName": "pages/Chapter_11/11_2_record/11_2_record",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "11_3_voice",
+					"pathName": "pages/Chapter_11/11_3_voice/11_3_voice",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "11_4_background-audio",
+					"pathName": "pages/Chapter_11/11_4_background-audio/11_4_background-audio",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "11_5_video",
+					"pathName": "pages/Chapter_11/11_5_video/11_5_video",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "11_8_load-font",
+					"pathName": "pages/Chapter_11/11_8_load-font/11_8_load-font",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "15_1_get-location",
+					"pathName": "pages/Chapter_15/15_1_get-location/15_1_get-location",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "15_2_open-location",
+					"pathName": "pages/Chapter_15/15_2_open-location/15_2_open-location",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "15_3_choose-location",
+					"pathName": "pages/Chapter_15/15_3_choose-location/15_3_choose-location",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "15_4_map-control",
+					"pathName": "pages/Chapter_15/15_4_map-control/15_4_map-control",
 					"scene": null
 				}
 			]
