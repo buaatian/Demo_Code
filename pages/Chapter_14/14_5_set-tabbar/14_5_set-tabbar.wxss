@@ -1,0 +1,5 @@
+/* pages/Chapter_14/14_5_set-tabbar/14_5_set-tabbar.wxss */
+@import "../../../common/weui.wxss";
+.weui-label {
+  width: 5em;
+}

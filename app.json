@@ -50,6 +50,17 @@
     "pages/Chapter_11/11_8_load-font/11_8_load-font",
     "pages/Chapter_12/12_1_file/12_1_file",
     "pages/Chapter_12/12_2_storage/12_2_storage",
+    "pages/Chapter_14/14_1/1_toast",
+    "pages/Chapter_14/14_1/2_modal",
+    "pages/Chapter_14/14_1/3_loading",
+    "pages/Chapter_14/14_1/4_action-sheet",
+    "pages/Chapter_14/14_2_pull-down-refresh/14_2_pull-down-refresh",
+    "pages/Chapter_14/14_3_animation/14_3_animation",
+    "pages/Chapter_14/14_4/1_set-navigation-bar",
+    "pages/Chapter_14/14_4/2_navigation-bar-loading",
+    "pages/Chapter_14/14_5_set-tabbar/14_5_set-tabbar",
+    "pages/Chapter_14/14_6_page-scroll/14_6_page-scroll",
+    "pages/Chapter_14/14_7_navigator/14_7_navigator",
     "pages/Chapter_15/15_1_get-location/15_1_get-location",
     "pages/Chapter_15/15_2_open-location/15_2_open-location",
     "pages/Chapter_15/15_3_choose-location/15_3_choose-location",
@@ -74,5 +85,25 @@
   "sitemapLocation": "sitemap.json",
   "requiredBackgroundModes": [
     "audio"
-  ]
+  ],
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "image/icon_component.png",
+        "selectedIconPath": "image/icon_component_HL.png",
+        "text": "主页"
+      },
+      {
+        "pagePath": "pages/Chapter_14/14_5_set-tabbar/14_5_set-tabbar",
+        "iconPath": "image/icon_API.png",
+        "selectedIconPath": "image/icon_API_HL.png",
+        "text": "设置tabbar"
+      }
+    ]
+  }
 }

@@ -1,0 +1,14 @@
+<!--pages/Chapter_14/14_4/2_navigation-bar-loading.wxml-->
+<view class="container">
+  <view class="page-head">
+    <view class="page-head-title">navigationBarLoading</view>
+    <view class="page-head-line"></view>
+  </view>
+  <view class="page-body">
+    <view class="btn-area">
+      <button type="primary" bindtap="showNavigationBarLoading">显示加载动画</button>
+      <button bindtap="hideNavigationBarLoading">隐藏加载动画</button>
+    </view>
+  </view>
+</view>
+

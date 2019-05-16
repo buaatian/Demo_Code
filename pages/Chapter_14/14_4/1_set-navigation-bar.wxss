@@ -1,0 +1,6 @@
+/* pages/Chapter_14/14_4/1_set-navigation-bar.wxss */
+@import "../../../common/weui.wxss";
+
+.weui-label{
+  width: 5em;
+}

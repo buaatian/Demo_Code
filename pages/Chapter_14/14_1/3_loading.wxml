@@ -1,0 +1,13 @@
+<!--pages/Chapter_14/14_1/3_loading.wxml-->
+<view class="container">
+  <view class="page-head">
+    <view class="page-head-title">loading</view>
+    <view class="page-head-line"></view>
+  </view>
+
+  <view class="page-body">
+    <view class="btn-area">
+      <button type="default" bindtap="showloading">显示一个3s的加载动画</button>
+    </view>
+  </view>
+</view>

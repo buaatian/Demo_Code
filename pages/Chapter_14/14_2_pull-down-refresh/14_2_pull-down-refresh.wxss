@@ -1,0 +1,7 @@
+/* pages/Chapter_14/14_2_pull-down-refresh/14_2_pull-down-refresh.wxss */
+.page-body-info {
+  background-color: transparent;
+}
+.btn-area{
+  margin-top: 300rpx;
+}

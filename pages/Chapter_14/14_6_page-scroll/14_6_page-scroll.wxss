@@ -1,0 +1,10 @@
+/* pages/Chapter_14/14_6_page-scroll/14_6_page-scroll.wxss */
+.rect {
+  width: 100rpx;
+  height: 100rpx;
+  background-color: #ccc;
+}
+
+.filling-area {
+  height: 1500rpx;
+}

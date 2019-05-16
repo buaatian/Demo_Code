@@ -39,7 +39,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 47,
+			"current": 58,
 			"list": [
 				{
 					"id": -1,
@@ -350,6 +350,84 @@
 					"id": -1,
 					"name": "15_4_map-control",
 					"pathName": "pages/Chapter_15/15_4_map-control/15_4_map-control",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "14_1_1_toast",
+					"pathName": "pages/Chapter_14/14_1/1_toast",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "14_1_2_modal",
+					"pathName": "pages/Chapter_14/14_1/2_modal",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "14_1_3_loading",
+					"pathName": "pages/Chapter_14/14_1/3_loading",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "14_1_4_action-sheet",
+					"pathName": "pages/Chapter_14/14_1/4_action-sheet",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "14_2_pull-down-refresh",
+					"pathName": "pages/Chapter_14/14_2_pull-down-refresh/14_2_pull-down-refresh",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "14_3_animation",
+					"pathName": "pages/Chapter_14/14_3_animation/14_3_animation",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "14_4_1_set-navigation-bar",
+					"pathName": "pages/Chapter_14/14_4/1_set-navigation-bar",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "14_4_2_navigation-bar-loading",
+					"pathName": "pages/Chapter_14/14_4/2_navigation-bar-loading",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "14_5_set-tabbar",
+					"pathName": "pages/Chapter_14/14_5_set-tabbar/14_5_set-tabbar",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "14_6_page-scroll",
+					"pathName": "pages/Chapter_14/14_6_page-scroll/14_6_page-scroll",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "14_7_navigator",
+					"pathName": "pages/Chapter_14/14_7_navigator/14_7_navigator",
+					"query": "",
 					"scene": null
 				}
 			]
